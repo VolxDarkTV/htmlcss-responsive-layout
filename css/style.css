@@ -1,0 +1,59 @@
+/* general rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header */
+header{
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    /* DEBUG */
+    background-color: #0084fd;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.container.desktop-link, ul{
+    display: flex;
+    align-items: center;
+    gap: 0px 30px;
+}
+.container.desktop-link, li{
+    list-style: none;   
+}
+#get-started{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#get-started a{
+    color: black;
+}
+/* Get Started Hover */
+#get-started:hover{
+    background-color: black;
+}
+#get-started:hover a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container.desktop-link, a{
+    text-decoration: none; 
+    color: #fff;
+}
+/* Nav Link Hover */
+.container.desktop-link, a:hover{
+    text-decoration: underline;
+}

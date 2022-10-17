@@ -146,13 +146,15 @@ main{
 
 /* Full screen view */
 .full-view{
-    display: flex;
-    justify-content: center;
     width: 100%;
     margin-top: 150px;
     background-color: #9792e4;
     /* DEBUG */
     height: auto;
+}
+.first-screen-view{
+    display: flex;
+    justify-content: center;
 }
 .small-container{
     display: flex;
@@ -217,5 +219,127 @@ main{
     height: 50px;
     border: none;
     border-radius: 50px;
+    background-color: #9792e4;
+}
+/* TESTIMONIALS */
+.testimonials-main-text{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.testimonial-center{
+    text-align: center;
+}
+.testimonials-main-text > h2{
+    font-size: 40px;
+    margin: 30px 0px;
+    color: #9792e4;
+}
+
+.people-testimonials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    background-color: #9792e4;
+    border-radius: 40px;
+}
+.testimonial-face{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+    background-color: #fff;
+}
+/* Faces */
+.first-face{
+    background-image: url(../img/testimonial1.jpg);
+}
+.second-face{
+    background-image: url(../img/testimonial2.jpg);
+}
+.third-face{
+    background-image: url(../img/testimonial3.jpg);
+}
+
+
+.testimonial-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    height: 100px;
+    /* DEBUG */
+    /* background-color: #5a6e7f; */
+}
+.testimonial-txt > p{
+    font-size: 18px;
+    color: #fff;
+}
+.testimonial-txt > h2{
+    margin-top: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Full view */
+.full-view > h2{
+    font-size: 45px;
+    color: #fff;
+}
+.second-screen-view{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-top: 50px;
+}
+.full-view-card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 60%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    /* DEBUG */
+    /* background-color: #000; */
+    /* height: 500px; */
+}
+.benefit-card{
+    width: 370px;
+    height: 420px;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.main-number{
+    font-size: 80px;
+    color: #9792e4;
+}
+.main-title{
+    font-size: 24px;
+    color: #9792e4;
+    margin: 20px 0px;
+}
+.benefit-card p{
+    color: #5a6e7f;
+    line-height: 25px;
+}
+.more-button{
+    padding: 10px 50px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    border-radius: 40px;
+    color: #fff;
     background-color: #9792e4;
 }

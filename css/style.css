@@ -106,6 +106,7 @@ main{
     font-size: 18px;
     color: #fff;
     background-color: #0084fd;
+    cursor: pointer;
 }
 .side-image{
     width: 250px;
@@ -220,6 +221,7 @@ main{
     border: none;
     border-radius: 50px;
     background-color: #9792e4;
+    cursor: pointer;
 }
 /* TESTIMONIALS */
 .testimonials-main-text{
@@ -342,4 +344,132 @@ main{
     border-radius: 40px;
     color: #fff;
     background-color: #9792e4;
+    cursor: pointer;
+}
+/* About Us container */
+.about-us-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.about-us-txt{
+    font-size: 60px;
+    color: #9792e4;
+}
+.about-us-paragraph{
+    width: 55%;
+}
+.about-us-paragraph p{
+    margin-top: 50px;
+    line-height: 35px;
+}
+.tutor-container{
+    /* width: 45%; */
+    margin-left: 100px;
+}
+.tutor-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.tutor-image span{
+    position: relative;
+    left: 200px;
+    font-size: 100px;
+    color: #9792e4;
+}
+.tutor-text{
+    font-size: 24px;
+    color: #9792e4;
+}
+#linkedin-tutor-button{
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #9792e4;
+    cursor: pointer;
+}
+.last-full-view{
+    display: flex;
+    justify-content: center;
+}
+.get-started-container{
+    width: 40%;
+    padding: 50px 0px;
+    text-align: center;
+    /* DEBUG */
+    /* height: 500px; */
+    /* background-color: #5a6e7f; */
+}
+.get-started-container > span{
+    opacity: 40%;
+    font-size: 20px;
+    color: #d5d4f4;
+}
+.get-started-container h3{
+    font-size: 40px;
+    color: #fff;
+}
+.get-started-container h2{
+    font-size: 80px;
+    color: #fdc15f;
+}
+.get-started-txt{
+    line-height: 35px;
+    color: #fff;
+}
+
+.end-get-started{
+    margin: 30px 0px;
+    padding: 25px 80px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #9792e4;
+}
+.copyright{
+    color: #fff;
+    opacity: 60%;
+}
+.copyright > a{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.period{
+    font-size: 50px;
+}
+
+/* Footer */
+footer{
+    background-color: #333333;
+    /* DEBUG */
+    height: 300px;
+}
+.footer-center-paragraph{
+    width: 30%;
+    padding: 40px 0px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+#last-footer-direct{
+    margin-top: 80px;
+}
+#last-footer-direct > a{
+    color: #9792e4;
+    text-decoration: underline;
+    cursor: pointer;
 }

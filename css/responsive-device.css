@@ -53,7 +53,7 @@
         padding: 0px 20px;
     }
     .benefit-card{
-        max-width: 350px;
+        width: calc(100% / 2 - 20px);
     }
 }
 
@@ -92,7 +92,7 @@
         text-align: center;
     }
     .benefit-card{
-        margin: 0 auto;
+        width: calc(100% / 1 - 20px);
     }
     /* About Us */
     .about-us-container{

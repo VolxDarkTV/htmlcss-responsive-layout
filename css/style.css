@@ -328,8 +328,8 @@ main{
     /* height: 500px; */
 }
 .benefit-card{
-    width: 370px;
-    height: 420px;
+    width: calc(100% / 3 - 20px);
+    min-height: 420px;
     padding: 30px;
     border-radius: 30px;
     background-color: #fff;

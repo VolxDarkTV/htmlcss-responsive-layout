@@ -84,7 +84,7 @@ main{
 }
 .big-card{
     display: flex;
-    width: calc((100% / 3) * 2);
+    width: calc((100% / 3) * 2 - 20px);
     padding: 20px;
     border-radius: 20px;
     background-color: #b5ddff;

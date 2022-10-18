@@ -231,9 +231,7 @@ main{
     cursor: pointer;
 }
 /* TESTIMONIALS */
-.testimonials-container{
 
-}
 .testimonials-main-text{
     width: 85%;
     margin: 0 auto;
@@ -253,15 +251,15 @@ main{
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: auto;
+    min-height: 200px;
     padding: 15px;
     margin-top: 50px;
     background-color: #9792e4;
     border-radius: 40px;
 }
 .testimonial-face{
-    width: 200px;
-    height: 200px;
+    min-width: 200px;
+    min-height: 200px;
     /* margin: 0px 15px; */
     border-radius: 50%;
     background-size: cover;
@@ -288,7 +286,7 @@ main{
     flex-direction: column;
     align-items: flex-start;
     width: 80%;
-    height: 100px;
+    min-height: 100px;
     padding: 0 15px;
     /* DEBUG */
     /* background-color: #5a6e7f; */

@@ -51,6 +51,7 @@
         width: 100%;
         margin: 50px 50px;
         padding: 0px 20px;
+        justify-content: center;
     }
     .benefit-card{
         width: calc(100% / 2 - 20px);
@@ -71,10 +72,11 @@
     }
     .card{
         margin: 20px auto;
+        width: calc(100% / 1 - 20px);
     }
     .big-card{
         margin: 0 auto;
-        width: 360px;
+        width: calc(100% / 1 - 80px);
     }
     /* Strategic Planning */
     .small-container h3{
@@ -86,6 +88,15 @@
         height: 600px;
         padding-bottom: 200px;
         text-align: center;
+    }
+    .testimonial-face{
+        margin-bottom: 20px;
+    }
+    .testimonial-txt h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
     /* Benefits of Working */
     .full-view > h2{

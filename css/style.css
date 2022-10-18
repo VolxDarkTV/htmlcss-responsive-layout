@@ -130,7 +130,7 @@ main{
     align-items: center;
     flex-direction: column;
     padding: 30px 20px;
-    width: 360px;
+    width: calc(100% / 3 - 20px);
     min-height: 350px;
     border-radius: 20px;
     background-color: #b5ddff;

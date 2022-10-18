@@ -1,0 +1,108 @@
+/* Tablet */
+@media screen and (max-width:768px) {
+    /* general container */
+    .container{
+        width: 90%;
+    }
+    /* Blue cards */
+    .row{
+        flex-wrap: nowrap;
+    }
+    /* Header */
+    .desktop-link{
+        display: none;
+    }
+    .desktop-burgher-menu{
+        display: flex;
+    }
+    /* Big Card */
+    .big-card{
+        display: block;
+    }
+    #side-text{
+        width: auto;
+    }
+    .side-image{
+        top: 25px;
+        left: 0px;
+    }
+    /* other cards */
+    .card{
+        max-width: 360px;
+    }
+
+    .small-container{
+        display: block;
+        width: 90%;
+    }
+    .small-container h3{
+        font-size: 50px;
+    }
+    .full-view-card{
+        width: auto;
+    }
+    .small-full-view-card{
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    /* Benefits of Working*/
+    .full-view-card-container{
+        width: 100%;
+        margin: 50px 50px;
+        padding: 0px 20px;
+    }
+    .benefit-card{
+        max-width: 350px;
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 480px) {
+    /* Blue Cards */
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .row{
+        display: block;
+        margin-bottom: -15px;
+    }
+    .card{
+        margin: 20px auto;
+    }
+    .big-card{
+        margin: 0 auto;
+        width: 360px;
+    }
+    /* Strategic Planning */
+    .small-container h3{
+        font-size: 40px;
+    }
+    /* Testimonials */
+    .people-testimonials{
+        flex-direction: column;
+        height: 600px;
+        padding-bottom: 200px;
+        text-align: center;
+    }
+    /* Benefits of Working */
+    .full-view > h2{
+        text-align: center;
+    }
+    .benefit-card{
+        margin: 0 auto;
+    }
+    /* About Us */
+    .about-us-container{
+        display: block;
+    }
+    .about-us-paragraph{
+        width: 100%;
+    }
+    .tutor-container{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}

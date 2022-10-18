@@ -26,6 +26,12 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.desktop-burgher-menu{
+    display: none;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
 .container.desktop-link, ul{
     display: flex;
     align-items: center;
@@ -125,7 +131,7 @@ main{
     flex-direction: column;
     padding: 30px 20px;
     width: 360px;
-    height: 350px;
+    min-height: 350px;
     border-radius: 20px;
     background-color: #b5ddff;
 }
@@ -188,7 +194,7 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 600px;
+    height: auto;
     margin-top: 300px;
     margin-left: 50px;
     padding: 20px;
@@ -213,9 +219,10 @@ main{
     color: #000;
     font-style: italic;
     text-align: center;
+    margin: auto;
 }
 .strategic-arrow{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width: 50px;
     height: 50px;
     border: none;
@@ -224,6 +231,9 @@ main{
     cursor: pointer;
 }
 /* TESTIMONIALS */
+.testimonials-container{
+
+}
 .testimonials-main-text{
     width: 85%;
     margin: 0 auto;
@@ -243,7 +253,8 @@ main{
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 250px;
+    height: auto;
+    padding: 15px;
     margin-top: 50px;
     background-color: #9792e4;
     border-radius: 40px;
@@ -251,12 +262,13 @@ main{
 .testimonial-face{
     width: 200px;
     height: 200px;
+    /* margin: 0px 15px; */
     border-radius: 50%;
     background-size: cover;
-    background-size: contain;
+    /* background-size: contain; */
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 150%;
+    /* background-size: 150%; */
     background-color: #fff;
 }
 /* Faces */
@@ -277,6 +289,7 @@ main{
     align-items: flex-start;
     width: 80%;
     height: 100px;
+    padding: 0 15px;
     /* DEBUG */
     /* background-color: #5a6e7f; */
 }
@@ -351,6 +364,7 @@ main{
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    padding: 0 30px;
 }
 .about-us-txt{
     font-size: 60px;
@@ -403,7 +417,7 @@ main{
     justify-content: center;
 }
 .get-started-container{
-    width: 40%;
+    width: 100%;
     padding: 50px 0px;
     text-align: center;
     /* DEBUG */
@@ -458,7 +472,7 @@ footer{
     height: 300px;
 }
 .footer-center-paragraph{
-    width: 30%;
+    width: 100%;
     padding: 40px 0px;
     margin: 0 auto;
     text-align: center;
